@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Odesk Browser</string>
+    <string name="odesk_api">https://www.odesk.com/api/profiles/v1/search/jobs.json?</string>
+    <string name="lbl_search_query">Search Query</string>
+    <string name="lbl_search_button">Search</string>
+    <string name="progress_dialog_msg">Retrieving job posts &#8230;</string>
+    <string name="jobdesctext">Job Description</string>
+    <string name="applytxt">Apply &#8230;</string>
+    
+    
+    <string-array name="category_array">
+	<item>Web Development</item>
+	<item>Software Development</item>
+	<item>Networking &amp; Information Systems</item>
+	<item>Writing &amp; Translation</item>
+	<item>Administrative Support</item>
+	<item>Design &amp; Multimedia</item>
+	<item>Customer Service</item>
+	<item>Sales &amp; Marketing</item>
+	<item>Business Services</item>
+</string-array>
+
+<string-array name="i_0">
+	<item>All</item>
+	<item>Web Design</item>
+	<item>Web Programming</item>
+	<item>Ecommerce</item>
+	<item>UI Design</item>
+	<item>Website QA</item>
+	<item>Website Project Management</item>
+	<item>Other - Web Development</item>
+</string-array>
+
+<string-array name="i_1">
+	<item>All</item>
+	<item>Desktop Applications</item>
+	<item>Game Development</item>
+	<item>Scripts &amp; Utilities</item>
+	<item>Software Plug-ins</item>
+	<item>Mobile Apps</item>
+	<item>Application Interface Design</item>
+	<item>Software Project Management</item>
+	<item>Software QA</item>
+	<item>VOIP</item>
+	<item>Other - Software Development</item>
+</string-array>
+
+<string-array name="i_2">
+	<item>All</item>
+	<item>Network Administration</item>
+	<item>DBA - Database Administration</item>
+	<item>Server Administration</item>
+	<item>ERP / CRM Implementation</item>
+	<item>Other - Networking &amp; Information Systems</item>
+</string-array>
+
+<string-array name="i_3">
+	<item>All</item>
+	<item>Technical Writing</item>
+	<item>Website Content</item>
+	<item>Blog &amp; Article Writing</item>
+	<item>Copywriting</item>
+	<item>Translation</item>
+	<item>Creative Writing</item>
+	<item>Other - Writing &amp; Translation</item>
+</string-array>
+
+<string-array name="i_4">
+	<item>All</item>
+	<item>Data Entry</item>
+	<item>Personal Assistant</item>
+	<item>Web Research</item>
+	<item>Email Response Handling</item>
+	<item>Transcription</item>
+	<item>Other - Administrative Support</item>
+</string-array>
+
+<string-array name="i_5">
+	<item>All</item>
+	<item>Graphic Design</item>
+	<item>Logo Design</item>
+	<item>Illustration</item>
+	<item>Print Design</item>
+	<item>3D Modeling &amp; CAD</item>
+	<item>Audio Production</item>
+	<item>Video Production</item>
+	<item>Voice Talent</item>
+	<item>Animation</item>
+	<item>Presentations</item>
+	<item>Engineering &amp; Technical Design</item>
+	<item>Other - Design &amp; Multimedia</item>
+</string-array>
+
+<string-array name="i_6">
+	<item>All</item>
+	<item>Customer Service &amp; Support</item>
+	<item>Technical support</item>
+	<item>Phone Support</item>
+	<item>Order Processing</item>
+	<item>Other - Customer Service</item>
+</string-array>
+
+<string-array name="i_7">
+	<item>All</item>
+	<item>Advertising</item>
+	<item>Email Marketing</item>
+	<item>SEO - Search Engine Optimization</item>
+	<item>SEM - Search Engine Marketing</item>
+	<item>SMM - Social Media Marketing</item>
+	<item>PR - Public Relations</item>
+	<item>Telemarketing &amp; Telesales</item>
+	<item>Business Plans &amp; Marketing Strategy</item>
+	<item>Market Research &amp; Surveys</item>
+	<item>Sales &amp; Lead Generation</item>
+	<item>Other - Sales &amp; Marketing</item>
+</string-array>
+
+<string-array name="i_8">
+	<item>All</item>
+	<item>Accounting</item>
+	<item>Bookkeeping</item>
+	<item>HR / Payroll</item>
+	<item>Financial Services &amp; Planning</item>
+	<item>Payment Processing</item>
+	<item>Legal</item>
+	<item>Project Management</item>
+	<item>Business Consulting</item>
+	<item>Recruiting</item>
+	<item>Statistical Analysis</item>
+	<item>Other - Business Services</item>
+</string-array>
+</resources>

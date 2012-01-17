@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="18sp"
+		android:textStyle="bold" 
+		android:paddingLeft="9dp" android:paddingRight="9dp"
+		android:text="" android:id="@+id/jobheading"></TextView>
+
+	<TableLayout  android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:padding="5dp">
+		<TableRow>
+			<Button android:text="@+string/applytxt" android:id="@+id/apply"
+				android:textSize="10sp" android:layout_width="wrap_content"
+				android:layout_height="34dp"></Button>
+
+			<Button android:text="Open page ..." android:id="@+id/openpage"
+				android:textSize="10sp" android:layout_width="wrap_content"
+				android:layout_height="34dp"></Button>
+		</TableRow>
+	</TableLayout>
+	
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical" android:padding="11dp">
+			
+			<TextView android:textSize="16sp" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Job Overview"
+				android:textStyle="bold" android:textColor="#444"
+				android:linksClickable="true" android:autoLink="all"></TextView>
+								
+			<TableLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/budget_table"
+				android:paddingBottom="10dp">
+			</TableLayout>
+			
+			<TextView android:textSize="16sp" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Job Requirements"
+				android:textStyle="bold" android:textColor="#444"
+				android:linksClickable="true" android:autoLink="all"></TextView>
+				
+			<TableLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/prefs"
+				android:paddingBottom="10dp">
+			</TableLayout>
+			
+			<TextView android:textSize="16sp" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Job Description"
+				android:textStyle="bold"
+				android:textColor="#444"
+				android:linksClickable="true" android:autoLink="all"></TextView>
+				
+			<TextView
+			    android:id="@+id/textDetails"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:autoLink="all"
+			    android:lineSpacingExtra="2.5sp"
+			    android:linksClickable="true"
+			    android:text="TextView"
+			    android:textColor="#4d4d4d"
+			    android:textSize="12sp" >
+</TextView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+
+

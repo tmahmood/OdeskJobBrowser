@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:padding="4sp"
+    android:paddingTop="12sp">
+	
+    <EditText android:id="@+id/search_query" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:hint="@string/lbl_search_query"></EditText>
+    		
+    <Spinner android:id="@+id/category" android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"></Spinner>
+    	
+    <Spinner android:id="@+id/subcategory" android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"></Spinner>
+    	
+    <Button android:text="@string/lbl_search_button" android:id="@+id/initSearch" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"></Button>
+    
+</TableLayout>
